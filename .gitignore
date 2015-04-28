@@ -36,6 +36,12 @@ reated by https://www.gitignore.io
 *.xdy
 *.tdo
 
+*.pdf
+*.log
+*.out
+*.aux
+*.toc
+
 
 ### Windows ###
 # Windows image file caches
