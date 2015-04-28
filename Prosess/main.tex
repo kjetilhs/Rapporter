@@ -20,17 +20,56 @@
 \usepackage[norsk]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
+\usepackage{graphicx}
 
-\title{Vortex NTNU\\Prosessrapport}
-\author{Helge~Fylkesnes,\\
-		Geir~Kulia,\\
-		Morten~Liland,\\
-		Kjetil~Sørbø,\\
-		Daniel~Tran}
+\begin{titlepage}
+\begin{center}
+
+% Upper part of the page. The '~' is needed because \\
+% only works if a paragraph has started.
+
+\includegraphics[width=1 \textwidth]{./img/logo-svart.png}~\\[1cm]
+
+\textsc{\LARGE TTK4850 Eksperter i Team}\\[0.5cm]
+
+\textsc{\Large Byggelandsbyen}\\[1.5cm]
+
+% Title
+\HRule \\[0.4cm]
+{ \huge \bfseries Prosessrapport \\[0.4cm] }
+
+\HRule \\[1.5cm]
+
+% Author and supervisor
+\noindent
+\begin{minipage}[t]{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Helge~\texttt{Fylkesnes},\\
+    Geir~\texttt{Kulia},\\
+    Morten~\texttt{Liland}}
+
+\end{flushleft}
+\end{minipage}%
+\begin{minipage}[t]{0.4\textwidth}
+\begin{flushright} \large
+\emph{Kjetil~\texttt{Sørbø},\\
+    Daniel~\texttt{Tran}}
+\end{flushright}
+\end{minipage}
+
+\\[4.0cm]
+
+{\large 28. April 2015}
+
+\end{center}
+\end{titlepage}
+
 
 \begin{document}
 
-\maketitle
+\tableofcontents
+% \listoffigures
+% \listoftables
 
 \subfile{kapitler/innledning.tex}
 \subfile{kapitler/personlige_refleksjoner.tex}
@@ -43,7 +82,6 @@
 
 \subfile{kapitler/hoveddel/inneffektivemoter.tex}
 \subfile{kapitler/hoveddel/kommunikasjon.tex}
-\subfile{kapitler/hoveddel/moter.tex}
 \subfile{kapitler/hoveddel/rullerendeleder.tex}
 \subfile{kapitler/hoveddel/beslutningsprosessen.tex}
 
